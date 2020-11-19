@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(https://template.canva.com/EADaoAuPpdc/1/0/400w-5NKrFL7p2N8.jpg);
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#myCanvas {
+    background-color: black;
+    border: red 2px solid;
+    border-radius: 25px;
+}
+
+summary {
+    color: bisque;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+    transition-property: color;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+summary:hover {
+    color: chartreuse;
+}
+
+td {
+    text-align: center;
+    border: 2px white solid;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: cornsilk;
+}
+
+table {
+    margin-top: 20px;
+}
+
+thead {
+    font-weight: 800;
+}

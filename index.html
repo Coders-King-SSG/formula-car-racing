@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Car Racing</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&family=Montserrat:wght@600&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body onload="add()">
+    <div class="container" style="width: 100%;
+    height: 775px;">
+        <center>
+            <h1 style="color: rgb(255, 248, 240);
+            font-size: 75px;
+            text-decoration: dashed gold underline;
+            font-family: 'Grenze Gotisch', cursive;">Formula Car Racing</h1>
+            <h2 style="color: rgb(255, 248, 240);
+            font-size: 50px;
+            font-family: 'Grenze Gotisch', cursive;">Game Status:-</h2><span id="score"></span>
+            <canvas id="myCanvas" width="800" height="400"></canvas>
+            <details>
+                <summary>Details about the Game</summary>
+                <table>
+                    <thead>
+                        <tr style="font-weight: bolder;">
+                            <td>&nbsp;Sr. No.&nbsp;</td>
+                            <td>Key</td>
+                            <td>Function</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Ctrl + Right(&rightarrow;)</td>
+                            <td>Move Car 1 <span style="background-color:red;">(Red)</span></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Shift + Right(&rightarrow;)</td>
+                            <td>Move Car 2 <span style="background-color:blue;">(Blue)</span></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>&nbsp;Backspace(&leftarrow;)&nbsp;</td>
+                            <td>Restart the Race</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </details>
+        </center>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
