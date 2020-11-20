@@ -12,7 +12,6 @@ background_img = "https://media-public.canva.com/MADnOLZcZLQ/1/thumbnail_large.j
 car1_img = "https://media-public.canva.com/uPA7U/MADWEluPA7U/3/tl.png";
 car2_img = "https://media-public.canva.com/p0H90/MADb3tp0H90/2/tl.png";
 function add() {
-    window.location.reload();
     background_imgtag = new Image();
     background_imgtag.onload = uploadBackground;
     background_imgtag.src = background_img;
